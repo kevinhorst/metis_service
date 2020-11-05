@@ -46,3 +46,31 @@ sudo systemctl start microblog
 ```
 to start the service.
 The flask server is reachable under http://127.0.0.1:8000/
+# Usage
+The REST API exposes the following endpoints:
+Startpoint:
+http://127.0.0.1:8000/index
+
+CPU utilization:
+
+http://127.0.0.1:8000/cpu
+
+RAM utilization:
+
+http://127.0.0.1:8000/ram
+
+Partitions and utilization:
+
+http://127.0.0.1:8000/disk
+
+socket connetions ipv4:
+
+http://127.0.0.1:8000/inet4
+
+socket connetions ipv6:
+
+http://127.0.0.1:8000/inet6
+
+mac address:
+
+http://127.0.0.1:8000/mac
