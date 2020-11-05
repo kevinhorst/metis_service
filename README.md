@@ -18,7 +18,7 @@ source <name of environment directory>/bin/activate
 ```
 install libraries
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 Change WorkingDirectory in metis.service to
 your local metis folder
