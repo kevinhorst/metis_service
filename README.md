@@ -48,6 +48,7 @@ to start the service.
 The flask server is reachable under http://127.0.0.1:8000/
 # Usage
 The REST API exposes the following endpoints:
+
 Startpoint:
 http://127.0.0.1:8000/index
 
