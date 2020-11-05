@@ -20,6 +20,19 @@ install libraries
 ```
 pip install -r requirements.txt
 ```
+Change WorkingDirectory in metis.service to
+your local metis folder
+
+```
+WorkingDirectory=/home/*/metis
+```
+
+Likewise, change Execstart to reference the right directory.
+This is neccessary for now, as they expect an absolute path.
+
+```
+ExecStart=/home/*/metis/<name of environment directory>/bin/gunicorn -b localhost:8000 metis:app
+```
 Move metis.service to 
 
 ```
