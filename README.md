@@ -42,7 +42,7 @@ run
 
 ```
 sudo systemctl daemon-reload
-sudo systemctl start microblog
+sudo systemctl start metis
 ```
 to start the service.
 The flask server is reachable under http://127.0.0.1:8000/
