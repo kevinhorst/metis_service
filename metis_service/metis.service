@@ -1,0 +1,11 @@
+[Unit]
+Description=Metis web application
+After=network.target
+
+[Service]
+User=mint
+WorkingDirectory=/home/mint/metis
+ExecStart=/home/mint/metis/venv/bin/gunicorn -b localhost:8000 metis:app
+
+[Install]
+WantedBy=multi-user.target
